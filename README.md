@@ -1,2 +1,2 @@
 # Competitive-Programming
-Where i put all my AC submissions
+Where i put all my code forces AC submissions.
