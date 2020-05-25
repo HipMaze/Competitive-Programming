@@ -1,4 +1,4 @@
-#include <iostream>
+es #include <iostream>
 #include <cmath>
 
 int main()
@@ -26,7 +26,7 @@ int main()
 }
 /*
 Probleme clairement greedy
-on veut prendre les coins les separer en deux piles min maxed
-on a tjrs un nombre pair de coins
-donc on prends les extremites dún cote et de láutre les milieux
+on veut prendre les coins les separer en deux piles egales en taille avec le mois de diff de poids
+puisque on travaille avec des puissances (en l'occurence les puissances de 2) on constate rapidement
+qu'il suffit de prendre le max + les plus petits d'un cote et les autres de l'autre
 */
