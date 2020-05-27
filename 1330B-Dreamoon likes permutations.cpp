@@ -20,7 +20,7 @@ int main()
     p1 = new int[1];
     p2 = new int[1];
     all = new int[1];
-    while (t)
+    while (t--)
     {
         swapable = 0;
         pause = 0;
@@ -37,11 +37,11 @@ int main()
             {
                 max = all[i];
             }
-            for (i = 0; i < n; i++)
+            /*for (i = 0; i < n; i++)
             {
                 printf("%d ",all[i]);
             }
-            printf("\n%d",max);
+            printf("\n%d",max);*/
         }
         p1 = new int[n];
         p2 = new int[n];
@@ -110,9 +110,7 @@ int main()
                 }
             }
         }
-
-        t--;
     }
-    scanf("%d",&t);
+    //scanf("%d",&t);
     return 0;
 }
